@@ -10,6 +10,8 @@ import project1 from "../../public/images/projects/crypto-screener-cover-image.j
 const FeaturedProject = ({type, title, summary, img, link, github}) => {
   return(
     <article className='w-full flex items-center justify-between rounded-3xl border border-solid border-dark bg-light shadow-2xl p-12'>
+      
+      
       <Link href={link} target='_blank'
       className='w-1/2 cursor-pointer overflow-hidden rounded-lg'
       >
